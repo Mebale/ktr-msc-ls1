@@ -3,7 +3,7 @@
 </head>
 <body>
 
-<form action="" method="post">
+<form action="traitement.php" method="post">
     <div>
         <label for="name">Nom :</label>
         <input type="text" required="required" id="name" name="user_name">
