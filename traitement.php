@@ -6,10 +6,10 @@
     <body>
         
         <?php
-            echo 'Prénom : '.$_POST["user_name"].'<br>';
-            echo 'Email : ' .$_POST["user_company"].'<br>';
-            echo 'Age : ' .$_POST["user_email"].'<br>';
-            echo 'Sexe : ' .$_POST["user_telephone"].'<br>';
+           .$_POST["user_name"];
+           .$_POST["user_company"];
+           .$_POST["user_email"];
+           .$_POST["user_telephone"];
         ?>
     </body>
 </html>
