@@ -6,7 +6,7 @@
 <form action="" method="post">
     <div>
         <label for="name">Nom :</label>
-        <input type="text" id="name" name="user_name">
+        <input type="text" required="required" id="name" name="user_name">
     </div>
     <div>
         <label for="Companyname">Company name :</label>
@@ -19,6 +19,8 @@
     <div>
         <label for="Telephone">Telephone number :</label>
         <input type="text" id="telephone" name="user_telephone">
+        
+         <input type="submit" value="Save">
     </div>
 </form>
 </body>
