@@ -1,23 +1,25 @@
 <html>
 <head>
-<title>Profile</title>
 </head>
 <body>
 
-<form action="/ma-page-de-traitement" method="post">
+<form action="" method="post">
     <div>
         <label for="name">Nom :</label>
         <input type="text" id="name" name="user_name">
     </div>
     <div>
-        <label for="mail">e-mail :</label>
+        <label for="Companyname">Company name :</label>
+        <input type="text" id="company" name="user_company">
+    </div>
+    <div>
+        <label for="email">email address :</label>
         <input type="email" id="mail" name="user_mail">
     </div>
     <div>
-        <label for="msg">Message :</label>
-        <textarea id="msg" name="user_message"></textarea>
+        <label for="Telephone">Telephone number :</label>
+        <input type="text" id="telephone" name="user_telephone">
     </div>
 </form>
-
 </body>
 </html>
